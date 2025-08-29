@@ -1,0 +1,89 @@
+/* Importa uma fonte do Google Fonts para deixar o texto mais bonito */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Regras gerais para o corpo do site */
+body {
+    font-family: 'Roboto', sans-serif; /* Define a fonte para toda a página */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #fff; /* Cor de fundo branca */
+    color: #333;
+    padding: 1rem 2rem; /* Espaçamento interno */
+    text-align: center;
+    border-bottom: 2px solid #ddd; /* Linha sutil na parte de baixo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Tamanho da fonte do título principal */
+}
+
+/* Estilo para a barra de navegação (nav) */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens lado a lado */
+    justify-content: center; /* Centraliza os itens */
+    gap: 1.5rem; /* Espaçamento entre os links */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #555;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s; /* Adiciona uma transição suave na cor */
+}
+
+nav a:hover {
+    color: #007bff; /* Cor do link quando o mouse passa por cima */
+}
+
+/* Estilo para o conteúdo principal (main) */
+main {
+    max-width: 900px; /* Largura máxima do conteúdo */
+    margin: 2rem auto; /* Centraliza o conteúdo na página */
+    padding: 1rem;
+}
+
+/* Estilo para as seções */
+section {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem; /* Espaço entre as seções */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+section h2 {
+    color: #007bff;
+    font-size: 2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto;
+    display: block; /* Remove o espaço extra abaixo da imagem */
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #f4f4f4;
+    margin-top: 2rem;
+}
